@@ -1,0 +1,34 @@
+{
+  "name": "lusecond/easy-domain",
+  "description": "domain api",
+  "type": "library",
+  "keywords": [
+    "php",
+    "domain"
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lusecond\\EasyDomain\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lusecond\\EasyDomain\\Tests\\": "tests"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lusecond",
+      "email": "375441004@qq.com",
+      "role": "Developer"
+    }
+  ]
+}
